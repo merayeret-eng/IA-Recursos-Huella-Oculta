@@ -60,9 +60,7 @@ Los datos se compilaron desde fuentes primarias y se organizan en 3 archivos CSV
 proyecto_PET/
 ├── index.html              # Visualización principal (scroll storytelling, 12 charts, 6 secciones)
 ├── compilar_datos.py       # Script Python para generar CSVs
-├── validar_proyecto.py     # Script de validación automática (138 checks)
 ├── VALIDACION.md           # Documento de validación y checklist de rúbrica
-├── GUION_VIDEO.md          # Guión para video de 5-6 minutos
 ├── README.md               # Este archivo
 ├── PROPUESTA_DEFINITIVA_IA_Recursos_Huella_Oculta.md
 ├── PROPUESTA_DEFINITIVA_IA_Recursos_Huella_Oculta.html
