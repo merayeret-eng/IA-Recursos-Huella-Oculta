@@ -1,0 +1,32 @@
+año,trimestre,tipo,valor_TWh,escenario,region,fuente,empresa,emisiones_CO2_Mt,queries_diarias_M,Wh_por_query,es_proyeccion,notas
+2009,FY,Wh_por_query,,historico,global,Google 2009 estimate,Google_Search,,,0.3,False,Google search: ~0.3 Wh per query (2009) — mismo que GPT-4o!
+2015,FY,data_centers_global,200.0,historico,global,IEA Energy and AI 2025,Global,120.0,,,False,Baseline pre-IA
+2019,FY,empresa_emisiones,,historico,global,Amazon Sustainability Report,Amazon,51.8,,,False,Baseline
+2020,FY,data_centers_global,260.0,historico,global,IEA Energy and AI 2025,Global,150.0,,,False,~1% global electricity
+2020,FY,empresa_emisiones,,historico,global,Amazon Sustainability Report,Amazon,60.6,,,False,
+2021,FY,empresa_emisiones,,historico,global,Amazon Sustainability Report,Amazon,72.6,,,False,Peak emissions (pandemic+cloud growth)
+2022,FY,data_centers_global,340.0,historico,global,IEA Energy and AI 2025,Global,180.0,,,False,
+2022,FY,empresa_emisiones,,historico,global,Amazon Sustainability Report,Amazon,70.8,,,False,
+2023,Q1,Wh_por_query,,estimado,global,Epoch AI / IEA Energy and AI 2025,ChatGPT(GPT-3.5),,100.0,3.0,False,GPT-3.5: ~3 Wh per query (cifra comúnmente citada)
+2023,FY,data_centers_global,380.0,historico,global,IEA Energy and AI 2025,Global,200.0,,,False,
+2023,FY,empresa_emisiones,,historico,global,Amazon Sustainability Report,Amazon,68.2,,,False,
+2024,Q3,Wh_por_query,,estimado,global,Epoch AI / IEA Energy and AI 2025,ChatGPT(GPT-4o),,500.0,0.3,False,GPT-4o: ~0.3 Wh per query (10x mejora!). 500M queries/día.
+2024,Q3,Wh_por_query,,estimado,global,Epoch AI / IEA Energy and AI 2025,Meta_Llama_3.1_405B,,,0.57,False,Llama 3.1 405B: ~0.57 Wh per query
+2024,Q3,Wh_por_query,,estimado,global,Epoch AI / IEA Energy and AI 2025,Gemini_Ultra,,,1.5,False,Gemini Ultra: ~1.5 Wh per query (larger model)
+2024,FY,ai_focused_global,50.0,base,global,IEA Energy and AI 2025,Global,25.0,,,False,AI-dedicated portion of DC energy
+2024,FY,data_centers_US,187.0,historico,US,IEA Energy and AI 2025,Global,90.0,,,False,US = 45% of global data center energy
+2024,FY,data_centers_global,415.0,historico,global,IEA Energy and AI 2025,Global,210.0,,,False,1.5% global electricity. 415 TWh verified by IEA.
+2024,FY,empresa_emisiones,,historico,global,Amazon Sustainability Report,Amazon,65.1,,,False,-10% from peak due to renewable investments
+2024,FY,empresa_energia,25.0,historico,global,Google Environmental Report 2025,Google,5.0,,,False,Google total electricity consumption
+2024,FY,empresa_energia,30.0,historico,global,Microsoft ESG Report 2025,Microsoft,11.7,,,False,11.7 Mt CO₂ estimated for 2024
+2024,FY,empresa_energia,14.0,historico,global,Meta Sustainability Data Index,Meta,5.8,,,False,5.8 Mt CO₂ in 2023. 2024 estimated higher.
+2025,proj,data_centers_global,500.0,base,global,IEA Energy and AI 2025,Global,240.0,,,True,Base case ~20% growth YoY
+2026,proj,data_centers_global,550.0,base,global,IEA Energy and AI 2025,Global,260.0,,,True,Base case
+2027,proj,data_centers_global,650.0,base,global,IEA Energy and AI 2025,Global,300.0,,,True,Base case
+2028,proj,data_centers_global,746.0,base,global,IEA Energy and AI 2025,Global,330.0,,,True,Base case
+2029,proj,data_centers_global,838.0,base,global,IEA Energy and AI 2025,Global,360.0,,,True,Base case
+2030,proj,ai_focused_global,465.0,base,global,IEA Energy and AI 2025,Global,190.0,,,True,AI energy could surpass total DC energy of 2024
+2030,proj,data_centers_global,945.0,base,global,IEA Energy and AI 2025,Global,400.0,,,True,Base case. 3% global electricity. ~doubles from 2024.
+2030,proj,data_centers_global,1400.0,lift_off,global,IEA Energy and AI 2025,Global,580.0,,,True,Lift-off: AI breakthroughs accelerate adoption
+2035,proj,data_centers_global,1200.0,base,global,IEA Energy and AI 2025,Global,500.0,,,True,Base case 2035
+2035,proj,data_centers_global,1700.0,lift_off,global,IEA Energy and AI 2025,Global,700.0,,,True,Lift-off 2035

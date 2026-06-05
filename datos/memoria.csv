@@ -1,0 +1,26 @@
+año,trimestre,tipo_memoria,precio_unitario_USD,mercado_B_USD,tecnologia,fabricante,capacidad_GB,aplicacion,crecimiento_anual_pct,es_proyeccion,notas
+2020,Q2,training_cost,12.0,,Transformer,OpenAI,,GPT-3_training,,False,GPT-3: ~$12M training cost (175B params)
+2023,FY,HBM_total_market,,10.0,HBM,SK_Hynix/Samsung,,AI_accelerators,,False,$10B market in 2023
+2023,FY,NVIDIA_DC_revenue,,47.5,GPU,NVIDIA,,datacenter_AI,217.0,False,$47.5B datacenter revenue FY24 (ending Jan 2024). +217% YoY.
+2023,Q1,training_cost,100.0,,Transformer,OpenAI,,GPT-4_training,,False,GPT-4: ~$100M estimated (1.8T params)
+2024,Q1,DDR5_32GB_RDIMM,95.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,,False,Q1 2024 spot price
+2024,Q3,DDR5_32GB_RDIMM,108.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,,False,Q3 2024
+2024,FY,HBM_total_market,,18.0,HBM,SK_Hynix/Samsung,,AI_accelerators,80.0,False,$17-18B. +80% YoY driven by NVIDIA H100/H200.
+2024,FY,NVIDIA_DC_revenue,,115.0,GPU,NVIDIA,,datacenter_AI,142.0,False,$115B datacenter revenue FY25. +142% YoY.
+2024,FY,NVIDIA_H200,30000.0,,HBM3e,NVIDIA,141.0,AI_training_inference,,False,~$30K/GPU. 141GB HBM3e memory.
+2025,Q1,DDR4_8Gb,1.63,,DDR4,Samsung/SK_Hynix/Micron,1.0,servers_legacy,,False,Jan 2025 spot price per unit (8Gb die)
+2025,Q3,DDR4_8Gb,5.5,,DDR4,Samsung/SK_Hynix/Micron,1.0,servers_legacy,,False,Q3 2025
+2025,Q4,DDR4_8Gb,12.76,,DDR4,Samsung/SK_Hynix/Micron,1.0,servers_legacy,683.0,False,Nov 2025. +683% desde Jan 2025!
+2025,Q1,DDR5_32GB_RDIMM,118.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,24.0,False,Q1 2025. +24% YoY
+2025,Q2,DDR5_32GB_RDIMM,130.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,,False,Q2 2025
+2025,Q3,DDR5_32GB_RDIMM,142.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,,False,Q3 2025. +31% desde Q1 2024
+2025,Q4,DDR5_32GB_RDIMM,160.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,,True,Q4 2025 estimated
+2025,FY,HBM_total_market,,35.0,HBM,SK_Hynix/Samsung/Micron,,AI_accelerators,94.0,False,$35B. +94% YoY. Blackwell GB200 demanda masiva.
+2025,proj,NVIDIA_DC_revenue,,200.0,GPU,NVIDIA,,datacenter_AI,74.0,True,~$200B projected FY26. Blackwell ramp.
+2025,FY,NVIDIA_GB200,1000000.0,,HBM3e,NVIDIA,576.0,AI_training_inference,,False,~$1M por superchip tray (Grace Blackwell). 576GB HBM3e total.
+2025,proj,training_cost,1000.0,,Next_gen,OpenAI/Google/Anthropic,,GPT-5_training,,True,GPT-5/Next gen: ~$1B+ estimated training cost
+2026,Q1,DDR4_8Gb,10.5,,DDR4,Samsung/SK_Hynix/Micron,1.0,servers_legacy,,False,Mar 2026. Corrección desde peak
+2026,Q1,DDR5_32GB_RDIMM,189.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,60.0,False,Q1 2026. +60% YoY. ~2x desde Q1 2024.
+2026,Q2,DDR5_32GB_RDIMM,245.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,,True,Q2 2026 (forward estimate $230-260)
+2026,Q4,DDR5_32GB_RDIMM,310.0,,DDR5,Samsung/SK_Hynix/Micron,32.0,datacenter_servers,,True,Q4 2026 (forward estimate $280-340). 3.3x desde Q1 2024
+2026,proj,HBM_total_market,,55.0,HBM,SK_Hynix/Samsung/Micron,,AI_accelerators,57.0,True,$54-55B projected. HBM4 expected.

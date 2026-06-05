@@ -1,0 +1,30 @@
+año,trimestre,empresa,consumo_total_BL,consumo_directo_BL,consumo_indirecto_BL,renovable_pct,replenish_pct,tipo_medicion,region,agua_por_query_ml,fuente,es_proyeccion,notas
+2019,FY,Google,15.2,12.9,2.3,100.0,52.0,total_operations,global,,Google Environmental Report 2025,False,Baseline pre-IA boom
+2020,Q2,GPT-3_training,0.0007,0.0007,0.0,,,entrenamiento_unico,US,,Li et al. 2023,False,"700,000 L evaporados durante entrenamiento de GPT-3 en data centers de Microsoft US"
+2020,FY,Google,18.9,16.1,2.8,100.0,55.0,total_operations,global,,Google Environmental Report 2025,False,
+2020,FY,Meta,1.2,1.0,0.2,67.0,0.0,total_operations,global,,Meta Sustainability Data Index,False,
+2020,FY,Microsoft,3.2,1.9,1.3,60.0,10.0,total_operations,global,,Microsoft ESG Report 2025,False,
+2021,FY,Google,21.9,18.6,3.3,100.0,58.0,total_operations,global,,Google Environmental Report 2025,False,
+2021,FY,Meta,1.8,1.5,0.3,83.0,0.0,total_operations,global,,Meta Sustainability Data Index,False,
+2021,FY,Microsoft,3.8,2.3,1.5,70.0,15.0,total_operations,global,,Microsoft ESG Report 2025,False,
+2022,Q4,ChatGPT(GPT-3),,,,,,por_query,global,500.0,Li et al. 2023 (arXiv:2304.03271),False,500ml por conversación (5-50 preguntas). ~10-100ml por query.
+2022,FY,Google,25.8,21.9,3.9,100.0,62.0,total_operations,global,,Google Environmental Report 2025,False,
+2022,FY,Meta,2.3,2.0,0.3,87.0,0.0,total_operations,global,,Meta Sustainability Data Index,False,
+2022,FY,Microsoft,4.5,2.7,1.8,85.0,20.0,total_operations,global,,Microsoft ESG Report 2025,False,
+2023,Q1,GPT-4,,,,,,por_query,global,300.0,Li et al. 2023 + estimación Epoch AI,False,Estimación basada en mayor eficiencia de GPT-4
+2023,FY,Global_AI,1.5,0.5,1.0,67.0,,proyeccion_global,global,,Li et al. 2023,True,Estimación global water footprint IA 2023
+2023,FY,Google,28.4,24.1,4.3,100.0,62.0,total_operations,global,,Google Environmental Report 2025,False,
+2023,FY,Meta,2.6,2.3,0.3,88.0,0.0,total_operations,global,,Meta Sustainability Data Index,False,"Total water withdrawal: 5,274 ML. Consumption: ~3,078 ML"
+2023,FY,Microsoft,5.2,3.1,2.1,92.0,28.0,total_operations,global,,Microsoft ESG Report 2025,False,
+2024,Q3,GPT-4o,,,,,,por_query,global,50.0,Epoch AI + IEA Energy and AI 2025,False,Estimación ajustada: 0.3 Wh → menor consumo agua. Significativamente más eficiente.
+2024,FY,Google,30.7,26.1,4.6,100.0,64.0,total_operations,global,,Google Environmental Report 2025,False,8.1B gal = 30.66 BL total. 64% replenished.
+2024,FY,Meta,3.0,2.7,0.3,90.0,0.0,total_operations,global,,Meta Sustainability Data Index,False,"Data center water consumption: 2,974 ML (~3.0 BL)"
+2024,FY,Microsoft,5.8,3.5,2.3,96.0,32.0,total_operations,global,,Microsoft ESG Report 2025,False,"FY24: 5,807 ML consumed. 34 GW CFE contracted."
+2025,proj,GPT-5(estimated),,,,,,por_query,global,80.0,Proyección propia,True,Modelos más grandes pero más eficientes. Estimación conservadora.
+2025,proj,Google,35.0,29.8,5.2,100.0,70.0,proyeccion,global,,Google Environmental Report 2025 + proj.,True,Proyección basada en crecimiento IA ~14% anual
+2025,proj,Meta,4.0,3.6,0.4,92.0,10.0,proyeccion,global,,Proyección propia,True,Growth driven by Llama 3/4 and AI inference
+2025,proj,Microsoft,7.5,4.5,3.0,100.0,40.0,proyeccion,global,,Proyección propia,True,Growth driven by OpenAI/Copilot expansion
+2026,proj,Google,40.0,34.0,6.0,100.0,75.0,proyeccion,global,,Proyección propia,True,Goal: water positive 2030
+2026,proj,Meta,5.5,5.0,0.5,95.0,20.0,proyeccion,global,,Proyección propia,True,Meta water restoration goal 2030
+2026,proj,Microsoft,10.0,6.0,4.0,100.0,50.0,proyeccion,global,,Proyección propia,True,Goal: water positive 2030. Massive infra investment.
+2027,proj,Global_AI,6.6,2.2,4.4,75.0,,proyeccion_global,global,,Li et al. 2023,True,4.2-6.6B m³ proyección 2027. Rango conservador-alto.
