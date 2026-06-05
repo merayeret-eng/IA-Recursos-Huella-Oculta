@@ -62,9 +62,6 @@ proyecto_PET/
 ├── compilar_datos.py       # Script Python para generar CSVs
 ├── VALIDACION.md           # Documento de validación y checklist de rúbrica
 ├── README.md               # Este archivo
-├── PROPUESTA_DEFINITIVA_IA_Recursos_Huella_Oculta.md
-├── PROPUESTA_DEFINITIVA_IA_Recursos_Huella_Oculta.html
-├── Propuesta_4_IA_Recursos_Huella_Oculta.md
 ├── datos/
 │   ├── agua.csv            # Consumo de agua Google, Microsoft, Meta (2019-2026)
 │   ├── energia.csv         # Consumo eléctrico IEA, emisiones CO2 (2009-2035)
